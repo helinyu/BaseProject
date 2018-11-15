@@ -1,0 +1,30 @@
+//
+//  Base.pch
+//  BaseProject_OC
+//
+//  Created by Aka on 2018/11/15.
+//  Copyright © 2018 Aka. All rights reserved.
+//
+
+#ifndef Base_pch
+#define Base_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+YYAdd.h"
+
+#define SCREEN_WIDTH_V1 MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define SCREEN_HEIGHT_V1 MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define SCREEN_BOUNDS CGRectMake(0,0,SCREEN_WIDTH_V1, SCREEN_HEIGHT_V1)
+#define SCREEN_SIZE CGSizeMake(SCREEN_WIDTH_V1, SCREEN_HEIGHT_V1)
+#define SCREEN_CENTER CGPointMake(SCREEN_WIDTH_V0 * 0.5, SCREEN_HEIGHT_V0 * 0.5)
+
+#define DP_DYNAMIC_VC_VIEW(ViewClass) \
+@dynamic view; \
+- (void)loadView { \
+self.view = [[ViewClass alloc] initWithFrame:SCREEN_BOUNDS]; \
+}
+
+
+#endif /* Base_pch */
