@@ -6,7 +6,7 @@ target 'BaseProject_OC' do
   use_frameworks!
 
    pod 'WebViewJavascriptBridge', '~> 6.0.3'
-#   pod 'NJKWebViewProgress', '~> 0.2.3'
+   pod 'dsBridge'
 
   target 'BaseProject_OCTests' do
     inherit! :search_paths

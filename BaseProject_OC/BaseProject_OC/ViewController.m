@@ -30,7 +30,7 @@
 
 - (void)onloca {
     BPWebViewController *vc = [BPWebViewController new];
-    vc.urlString = @"http://www.baidu.com";
+    vc.urlString = @"http://localhost:8000/s3.html";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
