@@ -91,12 +91,18 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DateTools/DateTools.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SQLiteRepairKit/sqliterk.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WCDB/WCDB.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WCDBOptimizedSQLCipher/sqlcipher.framework"
   install_framework "$BUILT_PRODUCTS_DIR/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
   install_framework "$BUILT_PRODUCTS_DIR/dsBridge/dsBridge.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DateTools/DateTools.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SQLiteRepairKit/sqliterk.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WCDB/WCDB.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WCDBOptimizedSQLCipher/sqlcipher.framework"
   install_framework "$BUILT_PRODUCTS_DIR/WebViewJavascriptBridge/WebViewJavascriptBridge.framework"
   install_framework "$BUILT_PRODUCTS_DIR/dsBridge/dsBridge.framework"
 fi

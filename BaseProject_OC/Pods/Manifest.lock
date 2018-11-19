@@ -2,20 +2,30 @@ PODS:
   - DateTools (2.0.0)
   - dsBridge (3.0.5)
   - Masonry (1.1.0)
+  - SQLiteRepairKit (1.2.1):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
   - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - DateTools (~> 2.0.0)
   - dsBridge
   - Masonry (~> 1.1.0)
+  - WCDB (~> 1.0.7.5)
   - WebViewJavascriptBridge (~> 6.0.3)
 
 SPEC CHECKSUMS:
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   dsBridge: 6ef092a7abdbe33f24b20d19edae1ca0ab99ded9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SQLiteRepairKit: 4d21bab9eff6a273f63da6815a0d1659e53f5bde
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 9fc409f2882afb643ede0818174a069c0e6588ff
+PODFILE CHECKSUM: 7be00dfe8b30192b38cfc742debd3bae1f0912de
 
 COCOAPODS: 1.2.1
