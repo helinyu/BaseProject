@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "BPWebViewController.h"
+#import "BPAudioViewController.h"
+
 #import <WebKit/WebKit.h>
 
 @interface ViewController ()
@@ -18,9 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  ;
-    
+
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setTitle:@"asdf" forState:UIControlStateNormal];
     [self.view addSubview:btn];
@@ -29,9 +29,11 @@
 }
 
 - (void)onloca {
-    BPWebViewController *vc = [BPWebViewController new];
-    vc.urlString = @"http://localhost:8000/s3.html";
+    BPAudioViewController *vc = [BPAudioViewController new];
     [self.navigationController pushViewController:vc animated:YES];
+//    BPWebViewController *vc = [BPWebViewController new];
+//    vc.urlString = @"http://localhost:8000/s3.html";
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

@@ -20,45 +20,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaseProject_OC/WebView/BPWebViewController.m"
-            timestampString = "563976335.914727"
+            timestampString = "564303958.0576659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[BPWebViewController viewDidLoad]"
-                  moduleName = "BaseProject_OC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/felix/BaseProject/BaseProject_OC/BaseProject_OC/WebView/BPWebViewController.m"
-                  timestampString = "563976335.951037"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "349">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__34-[BPWebViewController viewDidLoad]_block_invoke"
-                  moduleName = "BaseProject_OC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/felix/BaseProject/BaseProject_OC/BaseProject_OC/WebView/BPWebViewController.m"
-                  timestampString = "563976335.954826"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "82">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

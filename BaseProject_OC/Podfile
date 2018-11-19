@@ -8,6 +8,11 @@ target 'BaseProject_OC' do
    pod 'WebViewJavascriptBridge', '~> 6.0.3'
    pod 'dsBridge'
 
+  pod 'DateTools', '~> 2.0.0'
+
+
+   pod 'Masonry', '~> 1.1.0'
+
   target 'BaseProject_OCTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,15 +1,21 @@
 PODS:
+  - DateTools (2.0.0)
   - dsBridge (3.0.5)
+  - Masonry (1.1.0)
   - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
+  - DateTools (~> 2.0.0)
   - dsBridge
+  - Masonry (~> 1.1.0)
   - WebViewJavascriptBridge (~> 6.0.3)
 
 SPEC CHECKSUMS:
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   dsBridge: 6ef092a7abdbe33f24b20d19edae1ca0ab99ded9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: ac70fd3f168102075835948ac79f571452ef608d
+PODFILE CHECKSUM: 9fc409f2882afb643ede0818174a069c0e6588ff
 
 COCOAPODS: 1.2.1

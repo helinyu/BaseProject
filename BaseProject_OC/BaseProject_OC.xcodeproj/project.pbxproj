@@ -21,6 +21,11 @@
 		4149D1E1219D590500955315 /* BPWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149D1E0219D590500955315 /* BPWebView.m */; };
 		4149D1E7219D5AAE00955315 /* BPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149D1E6219D5AAE00955315 /* BPBaseView.m */; };
 		4149D1EA219D72D600955315 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149D1E9219D72D600955315 /* UIView+YYAdd.m */; };
+		417C34D621A25BD2005ABC3F /* BPAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C34D521A25BD2005ABC3F /* BPAudioViewController.m */; };
+		417C34D921A25BFF005ABC3F /* BPAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C34D821A25BFF005ABC3F /* BPAudioView.m */; };
+		417C34DC21A25DCD005ABC3F /* BPIMAudioTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C34DB21A25DCD005ABC3F /* BPIMAudioTCell.m */; };
+		417C34DF21A26107005ABC3F /* BPRecordAudioMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C34DE21A26107005ABC3F /* BPRecordAudioMgr.m */; };
+		417C34E221A290E9005ABC3F /* BPPlayAudioMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C34E121A290E9005ABC3F /* BPPlayAudioMgr.m */; };
 		99EF20E93222DDF813197BDE /* Pods_BaseProject_OCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36577A255FB33F043086919 /* Pods_BaseProject_OCTests.framework */; };
 		C691EC1850D93D40B58852DF /* Pods_BaseProject_OCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B658A026F0F7D9613B791F /* Pods_BaseProject_OCUITests.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +82,16 @@
 		4149D1E8219D72D600955315 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
 		4149D1E9219D72D600955315 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 		4149D1EB219D730F00955315 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
+		417C34D421A25BD2005ABC3F /* BPAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAudioViewController.h; sourceTree = "<group>"; };
+		417C34D521A25BD2005ABC3F /* BPAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAudioViewController.m; sourceTree = "<group>"; };
+		417C34D721A25BFF005ABC3F /* BPAudioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAudioView.h; sourceTree = "<group>"; };
+		417C34D821A25BFF005ABC3F /* BPAudioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAudioView.m; sourceTree = "<group>"; };
+		417C34DA21A25DCD005ABC3F /* BPIMAudioTCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPIMAudioTCell.h; sourceTree = "<group>"; };
+		417C34DB21A25DCD005ABC3F /* BPIMAudioTCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPIMAudioTCell.m; sourceTree = "<group>"; };
+		417C34DD21A26107005ABC3F /* BPRecordAudioMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPRecordAudioMgr.h; sourceTree = "<group>"; };
+		417C34DE21A26107005ABC3F /* BPRecordAudioMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPRecordAudioMgr.m; sourceTree = "<group>"; };
+		417C34E021A290E9005ABC3F /* BPPlayAudioMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPPlayAudioMgr.h; sourceTree = "<group>"; };
+		417C34E121A290E9005ABC3F /* BPPlayAudioMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPPlayAudioMgr.m; sourceTree = "<group>"; };
 		6075CA425FB5D1E26B7CF65B /* Pods-BaseProject_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject_OC/Pods-BaseProject_OC.release.xcconfig"; sourceTree = "<group>"; };
 		911D4A57038BD151E7B27275 /* Pods-BaseProject_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject_OC/Pods-BaseProject_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		F36577A255FB33F043086919 /* Pods_BaseProject_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +160,7 @@
 		4149D165219D528200955315 /* BaseProject_OC */ = {
 			isa = PBXGroup;
 			children = (
+				417C34D321A25BA7005ABC3F /* Audio */,
 				4149D1D8219D579900955315 /* Base */,
 				4149D1D7219D576B00955315 /* WebView */,
 				4149D1D6219D576200955315 /* Router */,
@@ -210,6 +226,23 @@
 				4149D1E9219D72D600955315 /* UIView+YYAdd.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		417C34D321A25BA7005ABC3F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				417C34D421A25BD2005ABC3F /* BPAudioViewController.h */,
+				417C34D521A25BD2005ABC3F /* BPAudioViewController.m */,
+				417C34D721A25BFF005ABC3F /* BPAudioView.h */,
+				417C34D821A25BFF005ABC3F /* BPAudioView.m */,
+				417C34DA21A25DCD005ABC3F /* BPIMAudioTCell.h */,
+				417C34DB21A25DCD005ABC3F /* BPIMAudioTCell.m */,
+				417C34DD21A26107005ABC3F /* BPRecordAudioMgr.h */,
+				417C34DE21A26107005ABC3F /* BPRecordAudioMgr.m */,
+				417C34E021A290E9005ABC3F /* BPPlayAudioMgr.h */,
+				417C34E121A290E9005ABC3F /* BPPlayAudioMgr.m */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 		FAFF9D29A8196E46D448B74D /* Pods */ = {
@@ -503,12 +536,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4149D1EA219D72D600955315 /* UIView+YYAdd.m in Sources */,
+				417C34DC21A25DCD005ABC3F /* BPIMAudioTCell.m in Sources */,
+				417C34D621A25BD2005ABC3F /* BPAudioViewController.m in Sources */,
 				4149D16B219D528200955315 /* ViewController.m in Sources */,
+				417C34D921A25BFF005ABC3F /* BPAudioView.m in Sources */,
+				417C34E221A290E9005ABC3F /* BPPlayAudioMgr.m in Sources */,
 				4149D1DE219D57CC00955315 /* BPWebViewController.m in Sources */,
 				4149D1E7219D5AAE00955315 /* BPBaseView.m in Sources */,
 				4149D1DB219D57B200955315 /* BPBaseViewController.m in Sources */,
 				4149D176219D528400955315 /* main.m in Sources */,
 				4149D168219D528200955315 /* AppDelegate.m in Sources */,
+				417C34DF21A26107005ABC3F /* BPRecordAudioMgr.m in Sources */,
 				4149D1E1219D590500955315 /* BPWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,7 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "UIView+YYAdd.h"
+#import <DateTools/DateTools.h>
 
 #define SCREEN_WIDTH_V1 MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
 #define SCREEN_HEIGHT_V1 MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
@@ -20,11 +21,16 @@
 #define SCREEN_SIZE CGSizeMake(SCREEN_WIDTH_V1, SCREEN_HEIGHT_V1)
 #define SCREEN_CENTER CGPointMake(SCREEN_WIDTH_V0 * 0.5, SCREEN_HEIGHT_V0 * 0.5)
 
+#define DLBottomFix ([UIScreen mainScreen].bounds.size.height >= 812 ? 34 : 0)
+#define DLTopFix ([UIScreen mainScreen].bounds.size.height >= 812 ? 22 : 0)
+#define DLStatusBarH ([UIScreen mainScreen].bounds.size.height >= 812 ? 44 : 20)
+#define DLTopLayoutH ([UIScreen mainScreen].bounds.size.height >= 812 ? 88 : 64)
+#define DLTabBarH ([UIScreen mainScreen].bounds.size.height >= 812 ? 83 : 49)
+
 #define DP_DYNAMIC_VC_VIEW(ViewClass) \
 @dynamic view; \
 - (void)loadView { \
-self.view = [[ViewClass alloc] initWithFrame:SCREEN_BOUNDS]; \
+    self.view = [[ViewClass alloc] initWithFrame:SCREEN_BOUNDS]; \
 }
-
 
 #endif /* Base_pch */

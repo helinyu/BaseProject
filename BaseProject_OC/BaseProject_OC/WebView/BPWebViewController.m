@@ -19,7 +19,6 @@ static NSString *const kEstimatedProgress = @"estimatedProgress";
 @property (nonatomic, strong) BPWebView *view;
 
 @property (nonatomic, strong) WKWebViewJavascriptBridge *bridge;
-@property (nonatomic, strong) 
 
 @end
 
